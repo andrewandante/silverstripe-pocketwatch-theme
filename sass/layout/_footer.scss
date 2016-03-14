@@ -58,10 +58,11 @@ $icon-width: $icon-size + 10;
 		width: $icon-width;
 		background: #d7d7d7;
 		font-size: $icon-size;
+
+		&:hover {		
+			background: #fff;
+		}
 	}
 
-	&:hover {
-		color: #d7d7d7;
-		background: #333333;
-	}
+	
 }
