@@ -1,0 +1,45 @@
+#MemberLoginForm_LoginForm {
+	margin-top:50px;
+	width:50%;
+	
+	@include breakpoint(sm) {
+	  width:100%;
+  	}
+  	@include breakpoint(xs) {
+	  width:100%;
+  	}
+
+	label {
+		margin-top:10px;
+	}
+
+	input[name="Email"] {
+		border:none;
+		width:100%;
+		margin-top:22px;
+		border-bottom:1px solid #777;
+
+	}
+
+	input[name="Password"] {
+		border:none;
+		width:100%;
+		margin-top:22px;
+		border-bottom:1px solid #777;
+	}
+
+	input[name ="Remember"] {
+		margin-left:4px;
+		margin-top:10px;
+		
+	}
+
+	.right {
+		margin-left:15px;
+	}
+
+	input[name="action_dologin"] {
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+}
