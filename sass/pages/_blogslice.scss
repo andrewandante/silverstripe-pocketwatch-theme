@@ -12,6 +12,8 @@
 
 	.blog-slice-title {
 		padding-bottom: 15px;
+		word-wrap:break-word;
+		line-height: 30px
 	}
 
 	.blog-slice-thumbnail {
@@ -57,7 +59,7 @@
 }
 
 .post-summary {
-	min-height: 520px;
+	min-height: 540px;
 
 	h3 > a {
 		line-height: 30px;	
