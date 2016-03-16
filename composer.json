@@ -27,6 +27,9 @@
     "psukhedelos/silverstripe-pocketwatch": "*"
   },
   "extra": {
-    "installer-name": "pocketwatch"
+    "installer-name": "pocketwatch",
+    "screenshots": [
+      "http://i.imgur.com/i3ow7kM.jpg"
+    ]
   }
 }
